@@ -10,7 +10,7 @@ const openNotification = (message, description) => {
 };
 
 const api = axios.create({
-  baseURL: 'https://apiv2.allsportsapi.com/basketball/', 
+  baseURL: 'https://auto-pay-api-sgiognjnfa-uc.a.run.app/', 
 });
 
 api.interceptors.response.use(
