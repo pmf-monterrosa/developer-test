@@ -64,7 +64,9 @@ const UI = () => {
   return (
     <>
       <div>
-        <Card>
+        <Card
+        title="Employers"
+        >
            <Flex
           alignItems={"center"}
           justifyContent={"between"}
@@ -111,7 +113,9 @@ const UI = () => {
         </Card>
       </div>
       <div>
-        <Card>
+        <Card
+        title="Job Titles"
+        >
            <Flex
           alignItems={"center"}
           justifyContent={"between"}
